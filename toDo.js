@@ -33,7 +33,7 @@
     
     const populateTodos = () => {
         console.log('arrayOfTodos:', arrayOfTodos)
-        let toDoList = document.getElementById("ol")
+        let toDoList = document.getElementById("todo-list")
         let text = document.createElement("li")
         text.appendChild(document.createTextNode(arrayOfTodos[0].userId))
         toDoList.appendChild(text)
